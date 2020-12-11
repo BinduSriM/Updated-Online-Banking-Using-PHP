@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		html {
+		  scroll-behavior: smooth;
+		}
+		body{
+		  background-image: url('main.jpg');
+		  width:100%;
+		  height:100%;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed; 
+		  background-size: 100% 100%;
+		}
+		.con {
+		  margin-top:200px;
+		  margin-left: 50px;
+		  color: #ffffff;
+		  text-align: center;
+		}
+		a{
+			margin-top:10px;
+			color:white;
+		}
+		#footer{
+		  margin-left:80px;
+		  margin-right:50px;
+		  margin-top: 50px;
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  text-align: center;
+		}
+		footer{
+		  background-color: black;
+		}
+		footer span{
+		  color:white;
+		  display: block;
+		}
+		.fa1 {
+		  padding: 10px;
+		  font-size: 30px;
+		  width: 55px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 5px 2px;
+		  border-radius: 50%;
+		}
+		.fa1:hover {
+		    opacity: 0.9;
+		    color: white;
+		}
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+		.fa-instagram {
+		  background: #125688;
+		  color: white;
+		}
+		.fa-linkedin {
+		  background: #007bb5;
+		  color: white;
+		}
+		.fa-envelope {
+			background: red;
+			color: white;
+		}
+		li{
+			padding:5px;
+		}
+	</style>
+</head>
+<body>
+       <nav class="navbar ul navbar-expand-sm fixed-top" id="nav" style="background-color: #000000;">
+		<button class="navbar-toggler navbar-light bg-warning" type="button" data-toggle="collapse"
+	                        data-target="#collapse_Navbar"> 
+	        <span class="navbar-toggler-icon"></span> 
+	    </button> 
+	    <div class="collapse navbar-collapse" id="collapse_Navbar"> 
+			<ul class="navbar-nav nav-pills">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="Customer/login--css.html"><span class="fa fa-child fa-lg"></span> Customer Login</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="Customer/createaccount.php" ><span class="fa fa-user-circle fa-lg"></span> Customer Registration</a>
+			  </li>
+			  <li class="nav-item">
+			    <a href="Admin/login.php" class="nav-link"> <span class="fa fa-user fa-lg"></span> Admin Login</a>
+			  </li>
+			</ul>
+		</div>
+	</nav>
+      
+      <div class="con">
+            <h1>Online Banking System </h1>
+            <hr>
+            <h5>We are very happy and excited to see you here</h5>
+            <h5>We wish you a safe and secure banking experience.</h5>
+            <a class="btn btn-primary" href="#nav">Get Started</a>
+      </div>
+    
+		<div id="footer">
+			<p><a href="https://www.facebook.com/OBS/" class="fa fa1 fa-facebook"></a>
+			<a href="https://www.linkedin.com/in/OBS/" class="fa fa1 fa-linkedin"></a>
+			<a href="https://www.instagram.com/OBS/" class="fa fa1 fa-instagram"></a></p>
+		</div>
+</body>
+</html>

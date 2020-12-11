@@ -1,0 +1,15 @@
+﻿html{
+background:url("project.jpg"); 
+background-size: cover;
+height: 100%;
+//overflow: hidden;
+}
+/*#id1{
+align:center;
+}
+#id2{
+align:right;
+}
+#id1,#id2{
+display:inline;
+}*/

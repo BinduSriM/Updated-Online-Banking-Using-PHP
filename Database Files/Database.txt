@@ -1,0 +1,7 @@
+Database creation in phpMyAdmin.
+
+SQL Query...
+
+First create student table.
+
+CREATE TABLE student.createacc(aadhar integer(20), accountnum integer(20), accounttype varchar(20), address varchar(50), age integer(10), balance integer(20), blood varchar(10), confirm varchar(30), fullname varchar(50), gender varchar(10), mail varchar(50), mobile integer(20), nationality varchar(20), pass varchar(30), pin integer(10), pincode integer(20), username varchar(30));
